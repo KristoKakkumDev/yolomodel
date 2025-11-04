@@ -1,0 +1,13 @@
+train: /home/kristo/Yolo/datasets/train/images
+val: /home/kristo/Yolo/datasets/valid/images
+test: /home/kristo/Yolo/datasets/test/images
+
+nc: 3
+names: ['Rubik', 'bottle', 'tennis-ball']
+
+roboflow:
+  workspace: ai-75n2q
+  project: training-set-6lozd-igq96
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-75n2q/training-set-6lozd-igq96/dataset/4
